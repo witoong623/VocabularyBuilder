@@ -1,0 +1,12 @@
+{
+    "name": "Vocabulary Builder",
+    "version": "1.0",
+    "description": "Build flash card from Cambridge Dictionary website",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["https://dictionary.cambridge.org/dictionary/english/*"],
+            "js": ["js/jquery.js", "js/main.js"]
+        }
+    ]
+  }
